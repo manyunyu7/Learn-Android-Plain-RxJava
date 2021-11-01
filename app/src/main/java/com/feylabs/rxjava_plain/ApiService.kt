@@ -16,4 +16,7 @@ interface ApiService {
     @GET("/3/movie/popular")
     fun getMoviesWithRxJavaWithObservable(): Observable<JsonObject>
 
+    @GET("/3/movie/popular")
+    fun getMoviesWithRxJavaWithSingle(): Single<JsonObject>
+
 }
